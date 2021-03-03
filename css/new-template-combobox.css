@@ -1,0 +1,75 @@
+.new-select-div .select-hidden {
+    display: none;
+    visibility: hidden;
+    padding-right: 10px;
+}
+
+.new-select-div .select {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    color: #343a40;
+    width: 214px;
+    height: 38px;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 3px;
+}
+
+
+.new-select-div .select-styled {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:  #fff;
+    padding: 8px 15px;
+}
+.new-select-div .select-styled:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-color: #343a40 transparent transparent transparent;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+}
+
+.new-select-div .select-styled:active, .new-select-div .select-styled.active {
+    /* border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 3px; */
+    background-color: #D9D9D9;
+}
+.new-select-div .select-styled:active:after, .new-select-div .select-styled.active:after {
+    top: 9px;
+    border-color: transparent transparent #343a40 transparent;
+}
+.new-select-div .select-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #fff;
+}
+.new-select-div .select-options li {
+    margin: 0;
+    padding: 12px 0;
+    text-indent: 15px;
+    /* border-top: 1px solid #6c757d; */
+}
+.new-select-div .select-options li:hover {
+    color: #fff;
+    background: #343a40;
+}
+.new-select-div .select-options li[rel="hide"] {
+    display: none;
+}

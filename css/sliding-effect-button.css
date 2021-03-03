@@ -1,0 +1,26 @@
+.new-form-container{
+    position: absolute;
+    width: 0px;
+    transition: width 0.1s linear;
+}
+
+.slide{
+    top: 0;
+    height: 100%;
+    width: 600px;
+    left: 0;
+    box-shadow: 5px 5px 18px #888888;
+    z-index: 2;
+    background-color: #fff;
+    transition: width 0.1s linear;
+}
+
+.new-form{
+    display: none;
+}
+
+div.shift-slide{
+	width: 230px;
+	transition: width 0.1s linear;
+}
+

@@ -1,0 +1,142 @@
+body {
+  font-family: "Merriweather", serif;
+}
+
+.horizontal-rectangle {
+  height: 50px;
+  background-color: #0a1726;
+  box-shadow: 5px 5px 18px #888888;
+  color: white;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.search-icon {
+  padding-top: 7px;
+  padding-left: 7px;
+  min-width: 50px;
+  color: #a9a9a9;
+}
+
+.input-field {
+  text-align: center;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: 55px;
+  padding: 5px 7px;
+  border-radius: 50%;
+  background: #a9a9a9;
+  color: black;
+}
+
+.vertical-rectangle {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 350px;
+  box-shadow: 5px 5px 18px #888888;
+  z-index: -1;
+  background-color: #f2f2eb;
+}
+
+.btn {
+  border: none;
+  outline: none;
+}
+
+.nav {
+  padding-right: 0;
+}
+
+.light-background a {
+  text-decoration: none;
+  color: #6c7a89;
+}
+
+.light-background a:hover {
+  background-color: #d9d9d9;
+  color: #34495e;
+}
+
+.light-background a.active {
+  background-color: #a6a6a6;
+  color: white;
+}
+
+.space-out {
+  padding-left: 0;
+  width: 100%;
+}
+
+.for-padding {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.more-width {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new {
+  display: none;
+  padding-right: 0;
+}
+
+#guts {
+  position: absolute;
+  left: 370px;
+  top: 70px;
+  width: 80%;
+}
+
+/* dashboard css*/
+
+.legend:hover {
+  cursor: pointer;
+}
+
+#pieLegend {
+  position: absolute;
+  bottom: -8px;
+  left: 90px;
+}
+
+#doughnutLegend {
+  position: absolute;
+  bottom: -8px;
+  right: 90px;
+}
+
+#doughnutInfo {
+  position: absolute;
+  top: 610px;
+  right: 213px;
+}
+
+/* all projects, all tickets and all users template css */
+
+.dot {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #6c757d;
+  border-radius: 50%;
+  display: inline-block;
+  /* font-size: 20px; */
+}
+
+.test {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+
+/* new project and ticket template css */

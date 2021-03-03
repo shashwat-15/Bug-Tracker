@@ -1,0 +1,69 @@
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.date-picker-div i.icon1 {
+  position: absolute;
+  left: 205px;
+  bottom: 10px;
+}
+.date-picker-div i.icon2 {
+  position: absolute;
+  top: 44px;
+  right: 26px;
+  bottom: 10px;
+}
+
+/*------new user------*/
+
+#image-upload {
+  display: none;
+}
+
+#profile-image {
+  cursor: pointer;
+}
+
+#profile-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#profile-container img {
+  width: 100px;
+  height: 100px;
+}
+
+.box-model {
+  width: 100%;
+  height: 200px;
+  border: 1px solid rgb(208, 208, 208);
+  border-radius: 3px;
+}
+
+.project-search {
+  position: absolute;
+  width: 80%;
+  height: 25px;
+  left: 40px;
+  border: none;
+}
+
+.project-search::placeholder {
+  text-align: left;
+  text-indent: 2px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}

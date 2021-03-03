@@ -1,0 +1,28 @@
+/* --------------Pagination---------------------------- */
+
+.active a {
+  background-color: #6c757d !important;
+  color: #fff !important;
+  border-color: #6c757d !important;
+}
+
+.pagination-container a:focus,
+.pagination-container a:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+/* -----------ticket info------------------- */
+
+.hover-background:hover {
+  background-color: rgb(247, 247, 247);
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
